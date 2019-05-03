@@ -1,5 +1,4 @@
 body {
-
 }
 
 .topnav {
@@ -7,6 +6,10 @@ body {
   display: grid;
   grid-template: 100px / 450px 250px 250px 250px;
   padding-top: 2%;
+}
+
+#logo {
+  padding-left: 10%;
 }
 
 .dropbtn {
@@ -41,6 +44,3 @@ body {
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown:hover .dropbtn {background-color: aqua;}
-
-#logo {
-}
